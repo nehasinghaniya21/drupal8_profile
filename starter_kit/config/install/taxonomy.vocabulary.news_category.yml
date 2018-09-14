@@ -1,0 +1,11 @@
+uuid: 81a6c5d9-0a97-47a8-accc-39c048326932
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vYXLc45-s7Q9MfWqhQQ71fpkBUU9SSOAGIk4oQyfPv0
+name: 'News Category'
+vid: news_category
+description: 'Taxonomy terms to categorize news content.'
+hierarchy: 0
+weight: 0

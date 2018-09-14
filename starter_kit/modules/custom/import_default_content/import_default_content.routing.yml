@@ -1,0 +1,9 @@
+import_content_programmatically.form:
+  path: '/admin/config/development/import-content-programmatically'
+  defaults:
+    _form: '\Drupal\import_default_content\Form\ImportContentProgrammatically'
+    _title: 'Import Content Programmatically'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE

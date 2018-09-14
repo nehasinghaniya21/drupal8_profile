@@ -1,0 +1,100 @@
+name: Starter Kit
+type: profile
+description: 'Install with commonly used features pre-configured as a Starter Kit'
+# version: VERSION
+# core: 8.x
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - hal
+  - serialization
+  
+  # Contrib
+  - admin_toolbar
+  - backup_migrate
+  - devel
+  - google_analytics
+  - metatag
+  - paragraphs
+  - pathauto
+  - redirect
+  - webform
+  - webform_bootstrap
+  - webform_image_select
+  - webform_node
+  - webform_scheduled_email
+  - webform_templates
+  - webform_ui
+  - field_group
+  - linkit
+  - simple_sitemap
+  - view_unpublished
+  - search_api
+  - token
+  - ctools
+  - entity_reference_revisions
+  - youtube
+  - features
+  - features_ui
+  - config_update
+  - smtp
+  - mailsystem
+  - colorbox
+  - sharethis
+  - pathologic
+  - superfish
+  - block_class
+  - clientside_validation
+  - views_slideshow
+  - views_slideshow_cycle
+  - recaptcha
+  - captcha
+  - googlemap_block
+  - devel_generate
+  - password_policy
+  - default_content
+  - dinodb
+  - import_default_content
+themes:
+  - bartik
+  - seven
+  - awesome_zymphonies_theme
+
+
+version: '8.5.7'
+core: '8.x'
+project: 'drupal'
+datestamp: 1533156926

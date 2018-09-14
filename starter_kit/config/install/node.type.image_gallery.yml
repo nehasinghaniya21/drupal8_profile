@@ -1,0 +1,20 @@
+uuid: 51115ff2-0160-4617-8937-e29db94d1c08
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: _KyJTLbt6Rjdp5oyHyp1EGdIuEuhSb39KVrYFt0jzgU
+name: 'Image Gallery'
+type: image_gallery
+description: 'Provides content for image gallery.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

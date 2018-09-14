@@ -1,0 +1,25 @@
+uuid: 7bff1530-dcc3-4819-a0a8-9ee6b2669f8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+_core:
+  default_config_hash: CehCWGka7g81vYKeVDhqZx6sAJiZxg-VP_2XcQ9-Z_c
+id: taxonomy
+label: Taxonomy
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria:
+  a8c28955-f316-4534-a92e-18ece06ccbdd:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      news_category: news_category
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: a8c28955-f316-4534-a92e-18ece06ccbdd
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,34 @@
+uuid: 72fd3308-4792-42eb-a9ef-48ad9de148e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - ctools
+    - views
+  theme:
+    - awesome_zymphonies_theme
+id: views_block__banner_block_2
+theme: awesome_zymphonies_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:banner-block_2'
+settings:
+  id: 'views_block:banner-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

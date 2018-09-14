@@ -1,0 +1,26 @@
+uuid: b6f73b85-6fd3-4a5e-b2bf-c7ae9e7c4a79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.news
+  module:
+    - datetime
+_core:
+  default_config_hash: tglgclGaYgdIDJ_RHdZKSeYbMZDCiRCNxQ3IWInzZMI
+id: node.news.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: news
+label: 'End Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

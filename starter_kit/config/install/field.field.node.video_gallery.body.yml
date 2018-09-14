@@ -1,0 +1,24 @@
+uuid: 046df7c6-b11a-490d-afc1-dd55fde09ef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.video_gallery
+  module:
+    - text
+_core:
+  default_config_hash: LFV8KB_FVzYxFpNQpbJLo88BIZfV-s-Pm-79WZn2hxc
+id: node.video_gallery.body
+field_name: body
+entity_type: node
+bundle: video_gallery
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

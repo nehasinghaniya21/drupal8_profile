@@ -1,0 +1,22 @@
+uuid: a1aed654-ce15-4b70-97f0-f79c8867e8d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - awesome_zymphonies_theme
+_core:
+  default_config_hash: K7HwVCVGXHzrqMDn4A_TwqhlrDTAy5Wyonr4scnFp1o
+id: awesome_zymphonies_theme_content
+theme: awesome_zymphonies_theme
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

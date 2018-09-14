@@ -1,0 +1,20 @@
+uuid: b7697789-b5a4-45a3-b5cd-6a36d5050afa
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: XTwpHeR4rxrnV9arVmEsOR0u75jJNOW9kW-EBRLmuzA
+name: Blog
+type: blog
+description: 'Use Blog for informative content for sharing user thoughts. views.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,21 @@
+uuid: 44c94cdb-04f9-437d-ad1c-985bfd863864
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - youtube
+_core:
+  default_config_hash: JlKK9Lgjp5y-HYfH80ejBhy3_6NJ4d3_CgUXa1ha6Ak
+id: node.field_youtube_video
+field_name: field_youtube_video
+entity_type: node
+type: youtube
+settings: {  }
+module: youtube
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

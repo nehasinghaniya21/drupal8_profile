@@ -1,0 +1,25 @@
+uuid: f4fb98b2-9840-4684-87ba-889ce72f2f69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to
+    - node.type.video_gallery
+  module:
+    - link
+_core:
+  default_config_hash: LwJ6gOWxgTtHjn0ZHwLR4kLzQFSUnlQ1SVa9aLUOfQA
+id: node.video_gallery.field_link_to
+field_name: field_link_to
+entity_type: node
+bundle: video_gallery
+label: 'Link To'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

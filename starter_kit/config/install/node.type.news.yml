@@ -1,0 +1,20 @@
+uuid: d273cc5c-0357-4441-9c6b-bc3eb1068db6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: YiKYIf8GYnW10YYv0c8lufQ-IkfGW-J0J-5alUhwk2U
+name: News
+type: news
+description: 'Use News content type for time based information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

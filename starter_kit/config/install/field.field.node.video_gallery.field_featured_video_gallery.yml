@@ -1,0 +1,25 @@
+uuid: be732157-dea7-40ec-a1f7-1c89db6dfe6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_video_gallery
+    - node.type.video_gallery
+_core:
+  default_config_hash: s0xJtxqyWYNUuEdUo7fs8_LT_Z_nn01HN0mERvOHRCU
+id: node.video_gallery.field_featured_video_gallery
+field_name: field_featured_video_gallery
+entity_type: node
+bundle: video_gallery
+label: 'Featured Video Gallery'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

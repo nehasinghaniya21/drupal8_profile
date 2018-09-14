@@ -1,0 +1,26 @@
+uuid: 8397b125-3869-40d7-815c-2bb0ccdb8df9
+langcode: en
+status: true
+dependencies:
+  module:
+    - googlemap_block
+    - system
+  theme:
+    - awesome_zymphonies_theme
+id: googlemapblock
+theme: awesome_zymphonies_theme
+region: content
+weight: -6
+provider: null
+plugin: googlemap_block
+settings:
+  id: googlemap_block
+  label: 'Google Map Block'
+  provider: googlemap_block
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /form/contact-us
+    negate: false
+    context_mapping: {  }

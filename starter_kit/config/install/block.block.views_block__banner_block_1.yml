@@ -1,0 +1,30 @@
+uuid: 7bf5a64f-b7d6-4ed4-8d12-77ae1e579465
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - system
+    - views
+  theme:
+    - awesome_zymphonies_theme
+id: views_block__banner_block_1
+theme: awesome_zymphonies_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:banner-block_1'
+settings:
+  id: 'views_block:banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

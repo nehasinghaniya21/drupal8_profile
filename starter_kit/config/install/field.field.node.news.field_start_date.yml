@@ -1,0 +1,26 @@
+uuid: 8cd07091-f862-4f91-8d25-a6cb9f9941bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date
+    - node.type.news
+  module:
+    - datetime
+_core:
+  default_config_hash: 344Bu_0yYnlxfCWyq46VvjPEL6Tp2sAR8k4BFJ_MK7g
+id: node.news.field_start_date
+field_name: field_start_date
+entity_type: node
+bundle: news
+label: 'Start Date'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

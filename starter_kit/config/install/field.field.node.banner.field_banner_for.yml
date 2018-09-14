@@ -1,0 +1,30 @@
+uuid: 19e4e46b-e88d-44e9-a798-cbc618e8da54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_for
+    - node.type.article
+    - node.type.banner
+    - node.type.page
+id: node.banner.field_banner_for
+field_name: field_banner_for
+entity_type: node
+bundle: banner
+label: 'Banner for'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

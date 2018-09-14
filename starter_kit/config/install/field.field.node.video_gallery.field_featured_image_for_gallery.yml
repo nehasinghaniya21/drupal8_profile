@@ -1,0 +1,40 @@
+uuid: 0f262a1e-124c-4b7f-b730-5f991374893a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image_for_gallery
+    - node.type.video_gallery
+  module:
+    - image
+_core:
+  default_config_hash: 8mZmKuk0FUqnIj5nPcHpOkTw49Ro6wRBv2pRZb3GH8s
+id: node.video_gallery.field_featured_image_for_gallery
+field_name: field_featured_image_for_gallery
+entity_type: node
+bundle: video_gallery
+label: 'Featured image for video gallery'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: featured-image-for-video-gallery
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

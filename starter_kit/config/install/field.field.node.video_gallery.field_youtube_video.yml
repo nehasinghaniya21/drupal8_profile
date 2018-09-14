@@ -1,0 +1,23 @@
+uuid: cb2ddf48-76b7-4db0-a313-bad569605ef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_video
+    - node.type.video_gallery
+  module:
+    - youtube
+_core:
+  default_config_hash: GMBGCSvJt33WwoPDVcyXRIebsw0iVGkNGUJGZFRAPVo
+id: node.video_gallery.field_youtube_video
+field_name: field_youtube_video
+entity_type: node
+bundle: video_gallery
+label: 'Youtube Video'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

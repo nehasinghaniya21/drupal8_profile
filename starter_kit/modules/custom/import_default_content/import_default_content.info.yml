@@ -1,0 +1,5 @@
+name: Import default content
+type: module
+description: Custom module to import default content
+core: 8.x
+package: Custom

@@ -1,0 +1,28 @@
+uuid: bc750f22-1c25-4493-bae7-e8348feb4766
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: c8Cg_qspdqnEABKkeX_6KaztXtcvsL4KuJfsZFT1wOU
+id: content_type_news_blog
+label: 'Content type'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  e3815eac-6084-44a3-9339-cc02e1fc9329:
+    id: node_type
+    bundles:
+      banner: banner
+      blog: blog
+      image_gallery: image_gallery
+      news: news
+      video_gallery: video_gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e3815eac-6084-44a3-9339-cc02e1fc9329
+selection_logic: and
+weight: -5
+relationships: {  }

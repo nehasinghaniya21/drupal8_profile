@@ -1,0 +1,25 @@
+uuid: c8ea2176-f189-4598-b3cd-cccfb537701b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image_gallery
+    - node.type.image_gallery
+_core:
+  default_config_hash: N1OJxuLEs_uT7t6Wijz3uTyfSqNc37D1kZpzNw3MNsY
+id: node.image_gallery.field_featured_image_gallery
+field_name: field_featured_image_gallery
+entity_type: node
+bundle: image_gallery
+label: 'Featured Image Gallery'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

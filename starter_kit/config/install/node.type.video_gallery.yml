@@ -1,0 +1,20 @@
+uuid: b3341641-5b85-40c1-9ed5-7b4189a3bed3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: vvcluU9Mt8fsf81O6DEgCFqeauJ4UZKvLQf0R1UXkBw
+name: 'Video Gallery'
+type: video_gallery
+description: 'Provides content for video gallery.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

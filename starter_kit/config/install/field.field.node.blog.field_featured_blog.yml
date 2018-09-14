@@ -1,0 +1,25 @@
+uuid: f0207cf6-9bcd-4bb8-87fe-6114bcd85357
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_blog
+    - node.type.blog
+_core:
+  default_config_hash: AaNwMBQ6WrYW57Cn--gmLHM9dQ8MC5i4VDaJRu5KNaQ
+id: node.blog.field_featured_blog
+field_name: field_featured_blog
+entity_type: node
+bundle: blog
+label: 'Featured Blog'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

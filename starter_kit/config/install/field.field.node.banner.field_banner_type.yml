@@ -1,0 +1,23 @@
+uuid: 86214b8b-9ea4-444d-9bf6-1169235d8129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_type
+    - node.type.banner
+  module:
+    - options
+_core:
+  default_config_hash: ihohbBzP4bPLTnJalEMcVkiWsaAkH9BP8Ku6bjQhbgo
+id: node.banner.field_banner_type
+field_name: field_banner_type
+entity_type: node
+bundle: banner
+label: 'Banner Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
